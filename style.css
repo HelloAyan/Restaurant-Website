@@ -1,0 +1,155 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: 0px;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: black;
+  font-family: "Lobster", "cursive";
+}
+.navbar-brand:hover {
+  color: black;
+}
+
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Rubik", "sans-serif";
+}
+.nav-link:hover {
+  color: black;
+}
+
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -32px;
+  border: 2px solid rgb(248, 26, 92);
+}
+.btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: rgb(248, 26, 92);
+  color: white;
+  border-radius: 60px;
+  font-weight: 700;
+}
+
+.main {
+  background-image: url(./images/lunchcopy.jpg);
+
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 50%;
+}
+
+.main h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.btn1 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: rgb(248, 26, 92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.btn1:hover {
+  background-color: rgb(223, 15, 77);
+  transition: 0.5s;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.card:hover {
+  box-shadow: -3px -2px 24px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -3px -2px 24px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px -2px 24px -4px rgba(0, 0, 0, 0.75);
+  transition: 0.5s;
+}
+
+.apple {
+  background: url(./images/red.jpg) no-repeat;
+  background-image: linear-gradient(to left rgba(0, 0, 0, 0.2));
+
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+}
+.apple h1 {
+  font-family: "Lobster", "cursive";
+}
+
+.newslatter {
+  background-color: black;
+  color: white;
+}
+
+.btn2 {
+  height: 45px;
+  width: 100px;
+  background: white;
+  margin-left: -50px;
+  border: 2px solid white;
+  border-radius: 60px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+
+.newslatter input {
+  height: 45px;
+  width: 55%;
+  outline: none;
+  background: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 60px;
+  padding-left: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.newslatter ::placeholder {
+  color: white;
+}
+
+.newslatter p {
+  margin: 0;
+}
+
+.fa {
+  cursor: pointer;
+  padding-right: 5px;
+  border-radius: 60px;
+}
+.newslatter a {
+  text-decoration: none;
+}
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+  background-color: #f81a5c;
+  border: none;
+}
+
+.contact h1 {
+  font-family: "Lobster", "cursive";
+}
+.contact h6,
+h5 {
+  font-family: "Rubik", "sans-serif";
+}
